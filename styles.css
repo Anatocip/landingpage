@@ -49,7 +49,7 @@ ul {
         .lefthero {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            
             gap: 20px;
             width: 600px;
         }        
@@ -66,9 +66,9 @@ ul {
         }
 
         img {
-            height: 225px;
+            height: 200px;
         }
-        button {
+        .hero button {
             background-color: #3882f6;
             color: #F9FAF8;
             width: 120px;
@@ -78,7 +78,7 @@ ul {
             font-weight: bold;
         }
 
-/*this section has to be improved*/
+/*this section HAS to be improved*/
 
 .information {
     display: flex;
@@ -125,7 +125,6 @@ ul {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
     padding: 80px 250px 70px 250px;
 }
     .textquote {
@@ -143,17 +142,63 @@ ul {
         font-size: 24px;
         padding-top: 25px;
     }
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+    flex: 1 1 auto;
+}
+    .bigbutton {
+        display: flex;
+        background-color: #3882f6;
+        padding: 40px 250px;
+        gap: 150px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .bbleft {
+        display: flex;
+        flex-direction: column;
+        color: #E5E7EB;
+        gap: 15px;
+    }
+    .call {
+        font-size: 30px;
+        font-weight: bold;
+    }
 
+    .bbright {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    .calltoaction button {
+        background-color: #3882f6;
+        color: #F9FAF8;
+        width: 120px;
+        height: 35px;
+        border-radius: 5px;
+        border-width: 2px;
+        border-color: #F9FAF8;
+        font-weight: bold;
+        border-style: solid;
+    
+    }
+
+
+
+
+
+    
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
-    margin-bottom: 0;
     display: flex;
     padding: 20px;
     justify-content: center;
     align-items: center;
 }
-    .copyright {
-       
-     
-    }
