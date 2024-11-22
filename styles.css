@@ -4,6 +4,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-self: center;
     margin: 0;
 }
 
@@ -21,6 +22,7 @@ ul {
     align-items: center;
     padding: 10px 20%;
     height: 50px;
+
 }
 
         .logo {
@@ -44,7 +46,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 75px 20%;
-    flex: 1 1 100%;
+    flex: 1 1 auto;
 }
         .lefthero {
             display: flex;
@@ -83,7 +85,7 @@ ul {
 .information {
     display: flex;
     background-color: white;
-    flex: 1;
+    flex: 1 1 auto;
     padding: 25px 10%;
     flex-direction: column;
 }
@@ -133,6 +135,7 @@ ul {
         font-weight: light;
         font-size: 36px;
         color: #1F2937;
+        flex: 1 1 auto;
     }
     .signature {
         display: flex;
@@ -163,6 +166,7 @@ ul {
         flex-direction: column;
         color: #E5E7EB;
         gap: 15px;
+        font-size: 24px;
     }
     .call {
         font-size: 30px;
@@ -188,12 +192,7 @@ ul {
         border-style: solid;
     
     }
-
-
-
-
-
-    
+ 
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
